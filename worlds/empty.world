@@ -12,6 +12,12 @@
     <include>
       <uri>model://asphalt_plane</uri>
     </include>
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>40.1451</latitude_deg>
+      <longitude_deg>-105.2406</longitude_deg>
+      <elevation>1680</elevation>
+    </spherical_coordinates>
     <physics name='default_physics' default='0' type='ode'>
       <gravity>0 0 -9.8066</gravity>
       <ode>
